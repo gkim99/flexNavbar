@@ -1,35 +1,29 @@
-*{
-    margin: 0px;
-}
-
 .nav{
     display: flex;
     height: 60px;
     background-color: rgb(49, 49, 49);
     align-items: center;
     padding: 0px 20px;
+    justify-content: space-between;
+    font-family: sans-serif;
 }
 
 .nav-title {
     color: white;
     font-weight: lighter;
-    font-family: sans-serif;
 }
 
 .nav-links{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    width: 30%;
     justify-content: space-between;
 }
 
 .nav-links a{
-    font-family: sans-serif;
     color: gray;
     text-decoration: none;
-}
-
-.nav-links li{
-    list-style-type: none;
 }
 
 a.active{
@@ -39,6 +33,9 @@ a.active{
 .btn{
     color: white;
     background-color: turquoise;
+    height: 30px;
+    width: 90px;
     border: 3px solid black;
     box-shadow: 3px 3px black;
+    font-weight: bold;
 }
